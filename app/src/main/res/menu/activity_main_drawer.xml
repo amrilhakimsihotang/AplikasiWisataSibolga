@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_tourism"
+            android:icon="@drawable/ic_baseline_beach_access_24"
+            android:title="@string/menu_tourism" />
+        <item
+            android:id="@+id/nav_hotel"
+            android:icon="@drawable/ic_baseline_local_hotel_24"
+            android:title="@string/menu_hotel" />
+        <item
+            android:id="@+id/nav_restaurant"
+            android:icon="@drawable/ic_baseline_food_bank_24"
+            android:title="@string/menu_restaurant" />
+        <item
+            android:id="@+id/nav_hospital"
+            android:icon="@drawable/ic_baseline_local_hospital_24"
+            android:title="@string/menu_hospital" />
+        <item
+            android:id="@+id/nav_souvenir"
+            android:icon="@drawable/ic_baseline_local_mall_24"
+            android:title="@string/menu_souvenir" />
+            />
+        <item
+            android:id="@+id/nav_webportal"
+            android:icon="@drawable/ic_baseline_public_24"
+            android:title="@string/fragment_web_portal"/>
+    </group>
+</menu>

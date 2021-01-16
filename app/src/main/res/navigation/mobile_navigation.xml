@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.amrilhs.aplikasiwisatasibolga.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_tourism"
+        android:name="com.amrilhs.aplikasiwisatasibolga.ui.tourism.TourismFragment"
+        android:label="@string/menu_tourism"
+        tools:layout="@layout/fragment_tourism" />
+    <fragment
+        android:id="@+id/nav_hospital"
+        android:name="com.amrilhs.aplikasiwisatasibolga.ui.hospital.HospitalFragment"
+        android:label="Hospital"
+        tools:layout="@layout/fragment_hospital" />
+    <fragment
+        android:id="@+id/nav_hotel"
+        android:name="com.amrilhs.aplikasiwisatasibolga.ui.hotel.HotelFragment"
+        android:label="Sibolga Hotel"
+        tools:layout="@layout/fragment_hotel" />
+    <fragment
+        android:id="@+id/nav_restaurant"
+        android:name="com.amrilhs.aplikasiwisatasibolga.ui.resto.RestoFragment"
+        android:label="@string/menu_restaurant"
+        tools:layout="@layout/fragment_resto" />
+    <fragment
+        android:id="@+id/nav_webportal"
+        android:name="com.amrilhs.aplikasiwisatasibolga.WebGovermFragment"
+        android:label="Sibolga Web Goverment"
+        tools:layout="@layout/fragment_web_goverm" />
+    <fragment
+        android:id="@+id/nav_souvenir"
+        android:name="com.amrilhs.aplikasiwisatasibolga.ui.souvenir.SouvenirFragment"
+        android:label="@string/menu_souvenir"
+        tools:layout="@layout/fragment_souvenir" />
+
+
+</navigation>

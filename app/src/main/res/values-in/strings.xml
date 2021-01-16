@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Info Pariwisata Sibolga</string>
+    <string name="nav_header_title">WISATA SIBOLGA</string>
+    <string name="nav_header_subtitle">Destinasi Wisata Populer Negeri Berbilang Kaum</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Bahasa</string>
+    <string name="menu_home">Beranda</string>
+    <string name="menu_tourism">Lokasi Wisata Sibolga</string>
+    <string name="menu_restaurant">Restoran/Kuliner</string>
+    <string name="menu_hospital">Rumah Sakit</string>
+    <string name="menu_hotel">Hotel</string>
+    <string name="menu_souvenir">Bingkisan/Oleh-oleh</string>
+    <string name="selamatdatang">SELAMAT DATANG</string>
+    <string name="action_Exit">Keluar</string>
+    <string name="action_about">About</string>
+    <string name="fragment_web_portal">Situs Pemda Sibolga</string>
+    <string name="place">Lokasi</string>
+    <string name="desc">Deskripsi</string>
+    <string name="rstobing">Rumah Sakit F.L Tobing Sibolga</string>
+    <string name="rsmetta">Rumah Sakit Metta Medika Sibolga</string>
+    <string name="rsad">Rumah Sakit TNI AD Sibolga</string>
+    <string name="txtalmttobing">Jl. DR. F.L. Tobing No.35 Sibolga-Sumatera Utara.</string>
+    <string name="tlprstobing">Telp. (0631) 372343</string>
+    <string name="txtwebrstobing">www.rsufltobing.com</string>
+    <string name="txtalmtmetta">Jl. S. Siswomiharjo No. 34 Sibolga, Pasar Baru, Sibolga Kota,Sumatera Utara 22312.</string>
+    <string name="tlprsmetta">Telp. (0631) 25007</string>
+    <string name="txtwebrsmetta">www.rsmettamedika.com</string>
+    <string name="txtalmtpandan">Jl. Dr. Ferinand Lumbantobing No. 5 Pandan.</string>
+    <string name="tlprspandan">Telp. (0631) 372343</string>
+    <string name="txtwebrspandan">web: </string>
+    <string name="hotelname">Hotel</string>
+    <string name="hoteldesc">Desc</string>
+    <string name="restoname">Restorant</string>
+    <string name="restdesc">Desc</string>
+    <string name="version">Versi 1.0</string>
+    <string name="sumber">Referensi :</string>
+    <string name="link">https://www.sibolgakota.go.id \nhttp://www.rsufltobing.com
+    \nhttp://www.rsmettamedika.com
+    \nhttps://www.pikniktoday.com/2019/08/tempat-wisata-di-sibolga.html
+    \nhttps://www.andalastourism.com/tempat-wisata-sibolga\nhttps://www.itrip.id
+        \nhttps://www.andalastourism.com/wisata-kuliner-sibolga
+    </string>
+    <string name="souvenirmap">Lokasi Souvenir</string>
+    <string name="none">None Text</string>
+</resources>

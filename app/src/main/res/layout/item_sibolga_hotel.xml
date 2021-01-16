@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    android:elevation="3dp"
+    app:cardUseCompatPadding="true"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp">
+        <ImageView
+            android:id="@+id/imgHotelXml"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:src="@color/yellow2"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:id="@+id/txtHotelnameXml"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text="@string/hotelname"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_below="@+id/imgHotelXml"
+            android:textColor="@color/teal_700"
+            android:textStyle="bold"
+            android:textSize="13sp"/>
+        <TextView
+            android:id="@+id/deschotelXml"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hoteldesc"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_below="@+id/txtHotelnameXml"
+            android:textColor="@color/blackhue"
+            android:textStyle="bold"
+            android:textSize="10sp"/>
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
